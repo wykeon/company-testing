@@ -1,0 +1,154 @@
+body {    
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:#ffffff;
+	
+}
+
+.light{
+background-color:#000000;
+margin-left:-50px;
+width:1050px;
+padding-left:50px;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+a:link {color:#F7FF0A;}    /* unvisited link */
+a:visited {color:#0DFFC6;} /* visited link */
+a:hover {color:#FF2908;}   /* mouse over link */
+a:active {color:#FFFFFF;}
+
+
+
+
+/** refer to top nav bar **/
+#slider {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+	background-color:#ffffff;
+}
+
+#logo { 
+float:left;
+margin:20px;
+}
+
+/** refer to content area **/
+.scroll {
+    height: 1500px;
+    width: 1100px;
+    overflow: auto;
+	overflow-x: hidden;
+	position: relative;
+	clear: left;
+    background: #4d4d4d;  
+}
+
+.scrollContainer div.panel {
+    padding-right: 40px;
+	padding-left:50px;
+    height: 600px;
+    width: 1000px;
+}
+
+/** refer to words under top nav bar **/
+
+ul.navigation {
+    list-style: none;
+    margin-left:400px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+	font-family:Impact, Charcoal, sans-serif;
+	
+	
+}
+
+ul.navigation li {
+    display: inline;
+    margin-right: 5px;
+	
+}
+
+ul.navigation a {
+    padding: 10px;
+    color: #000;
+	font-size:130%;
+	text-decoration:none;
+}
+
+ul.navigation a:hover {
+    background-color: #D9D9D9;
+}
+
+ul.navigation a.selected {
+    background-color: #D9D9D9;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+/** refers to side arrows beside the content area **/
+
+.scrollButtons {
+    position: absolute;
+    top: 150px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: -20px;
+	top:50%;
+	
+}
+
+.scrollButtons.right {
+    right: -20px;
+	top:50%;
+}
+
+.hide {
+    display: none;
+}
+
+
+.pic{
+margin-left:150px;
+background-color:#ffffff;
+width:1100px;
+float:left;
+
+
+}
+
+li.show{
+float:left;
+color:#000000;
+list-style-type:none;
+margin-left:20px;
+margin-right:20px;
+font-family:Impact, Charcoal, sans-serif;
+
+}
+
+ul.arrange {
+
+margin-left:35px;
+margin-right:35px;
+}
+
+
+/* other formatting */
+.photo{
+padding-right:30px;
+padding-bottom:10px;
+}
+
+.data{
+padding-bottom:50px;
+}
+
+.tabledata{
+padding-left:10px;
+}
